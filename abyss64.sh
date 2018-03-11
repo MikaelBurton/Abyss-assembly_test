@@ -1,5 +1,5 @@
-abyss-pe name=azotobacter32 k=32 in='SRR4149288_1.fastq SRR4149288_2.fastq' 
+abyss-pe name=azotobacter64 k=64 in='SRR4149288_1.fastq SRR4149288_2.fastq' 
 
-prokka azotobacter32-contigs.fa
+prokka azotobacter64-contigs.fa
 
 
