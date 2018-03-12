@@ -11,3 +11,6 @@
  #in both .sh we ran the assembly annotation with the software "Prokka" version 1.12  the script used is: 
  
 prokka azotobacter32-contigs.fa  #This command line create a multiple files with the annotation assembly we used the file .tsv for find the histidine_kinase protein
+
+
+grep -c "histidine" PROKKA_03082018.tsv #It create a script in bash to count all coincidence to the word "histidine" and give 13 coincidence in both assembler (32 & 64 kmer) before that, it open the file .tsv create of Prokka and find all genes of histidine kinase and found six genes(monomer) that make up the protein. 
